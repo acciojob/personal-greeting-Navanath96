@@ -11,7 +11,7 @@ const App = () => {
         <p>
         <input  setinput={setinputtext}/>
         {
-          inputtext && <h>Hello {inputtext}</h>
+          inputtext && <h>Hello {inputtext}!</h>
 }
 </p>
     </div>
