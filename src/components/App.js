@@ -8,10 +8,12 @@ const App = () => {
   return (
     <div>
         {/* Do not remove the main div */}
+        <p>
         <input  setinput={setinputtext}/>
         {
           inputtext && <h>Hello {inputtext}</h>
 }
+</p>
     </div>
   )
 }
